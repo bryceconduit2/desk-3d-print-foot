@@ -75,7 +75,7 @@ if __name__ == "__main__":
     for j in range(3):
       foot.vectors[i][j] = points3D[f[j],:]
 
-  foot.save('decagon_cone.stl')
+  foot.save('../output/desk_foot.stl')
   print("done")
 
 
